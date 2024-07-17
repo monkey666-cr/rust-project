@@ -21,10 +21,10 @@ members = [
     "session2/dividing_work",
     "session2/hello",
     "session2/mutexes",
-    "session2/parking",
+    "session2/parking", "session2/rayon_iters", "session2/rayon_scopes",
     "session2/rwlocks",
     "session2/scoped_threads",
-    "session2/thread_builder",
+    "session2/thread_builder", "session2/tprio",
     "session2/workers",
     "session2/workers2",
 ]
