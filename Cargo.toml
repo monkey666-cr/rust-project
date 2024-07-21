@@ -26,5 +26,5 @@ members = [
     "session2/scoped_threads",
     "session2/thread_builder", "session2/tprio",
     "session2/workers",
-    "session2/workers2", "session3/blocking", "session3/hello_async", "session3/hello_tokio",
+    "session2/workers2", "session3/blocking", "session3/errors", "session3/hello_async", "session3/hello_tokio", "session3/tokio_testing",
 ]
