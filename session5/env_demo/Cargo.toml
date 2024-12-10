@@ -1,0 +1,12 @@
+[package]
+name = "env_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.81"
+axum = "0.7.5"
+config = "0.14.0"
+dotenvy = "0.15.7"
+reqwest = "0.12.5"
+tokio = { version = "1.39.2", features = ["full"] }

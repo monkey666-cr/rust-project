@@ -1,5 +1,3 @@
-use authentication::greet_user;
-
 fn main() {
-    println!("{}", greet_user("chenrun"));
+    println!("Hello World")
 }

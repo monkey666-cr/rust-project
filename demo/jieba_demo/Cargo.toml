@@ -1,7 +1,0 @@
-[package]
-name = "jieba_demo"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-jieba-rs = { version = "0.7", features = ["tfidf", "textrank"] }

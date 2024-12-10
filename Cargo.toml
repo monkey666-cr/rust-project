@@ -5,10 +5,11 @@ edition = "2021"
 
 [dependencies]
 authentication = { path = "./session1/authentication" }
+lettre = "0.11.9"
+maik = "0.1.0"
 
 [workspace]
 members = [
-    "demo/jieba_demo",
     "project/hw-unisearch-cli",
     "project/hw-unisearch-core",
     "project/hw-unisearch-core-serve",
@@ -44,16 +45,22 @@ members = [
     "session3/restclient",
     "session3/tcpserver",
     "session3/tokio_select",
-    "session3/tokio_testing", "session4/bytes",
-    "session4/cycles", "session4/cycles_weak",
+    "session3/tokio_testing",
+    "session4/bytes",
+    "session4/cycles",
+    "session4/cycles_weak",
     "session4/db",
     "session4/dropping",
     "session4/generics",
     "session4/iterators",
     "session4/logspan",
-    "session4/memory", "session4/packing",
+    "session4/memory",
+    "session4/packing",
     "session4/refc",
     "session4/thumbs",
     "session4/traits",
     "session4/web_service",
+    "session5/env_demo",
+    "session5/minimal_server",
+    "session5/shared_data",
 ]
