@@ -1,8 +1,0 @@
-[package]
-name = "hw-unisearch-core"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-tokio = "1.39.2"
-jieba-rs = { version = "0.7", features = ["tfidf", "textrank"] }
